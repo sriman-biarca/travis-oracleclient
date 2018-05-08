@@ -17,4 +17,4 @@ cd /usr/lib/oracle/11.2/client64
 ls -ltr
 
 
-"$ORACLE_HOME/bin/sqlplus" SYSTEM/biarca123@"104.197.220.94/XE" @'sample.txt'
+"$ORACLE_HOME/bin/sqlplus" SYSTEM/biarca123@"104.197.220.94/XE" @'../sample.txt'
