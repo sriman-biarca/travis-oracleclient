@@ -1,6 +1,6 @@
 select host_name from v$instance;
 
-create user user123 identified by user123;
+create user user1234 identified by user1234;
 
 select USERNAME from SYS.ALL_USERS;
 
