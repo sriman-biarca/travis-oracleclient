@@ -1,11 +1,5 @@
 sudo: required
+dist: trusty
 
-matrix:
-  include:
-    - os: linux
-      dist: trusty
-      sudo: required
-
-
-before_install:
+script:
   - bash ./install.sh
