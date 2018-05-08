@@ -1,0 +1,7 @@
+select host_name from v$instance;
+
+create user sampleuser identified by sampleuser123;
+
+select USERNAME from SYS.ALL_USERS;
+
+EXIT
